@@ -1,6 +1,6 @@
 body{
-    background-color:#F3F3F3;
-}
+    background-color:var(--primary-color);
+  }
 
 #logo{
     width: 188px;
@@ -8,25 +8,54 @@ body{
     border: 0px solid black;
     margin: auto;
     text-align: center;
-    margin-left: 485px;
+    margin-left: 484px;
     margin-bottom: 2px;
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 38px;
-    color:#333;
+    color: var(--secondary-color);
     text-shadow: 1px;
     position: static;
 
 }
+#icon{
+    width: 55px;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+
+:root{
+
+ 
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+
+}
+
+.dark-theme{
+--primary-color: #000106;
+--secondary-color: #fff;
+}
+
+
+
+nav ul{
+  flex: 1;
+  text-align: right;
+  
+}
+
 .post1{
     width: 920px;
     height: 250px;
     border: 1px dashed black;
     margin: auto;
     margin-top: 15px;
-    background-color: white;
-    color: black;
+    background-color: var(--primary-color);
     text-align:left;
     text-indent: 5px;
+    color: var(--secondary-color);
 
 }
 
@@ -36,10 +65,12 @@ body{
   border: 1px dashed black;
   margin: auto;
   margin-top: 15px;
-  background-color: #DCE1E3;
+  background-color:var(--primary-color);
   text-align:left;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 5px;
+  color: var(--secondary-color);
+  
 
 }
 
@@ -49,10 +80,12 @@ body{
   border: 1px dashed black;
   margin: auto;
   margin-top: 15px;
-  background-color: #DCE1E3;
+  background-color:var(--primary-color);
   text-align:left;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 5px;
+  color: var(--secondary-color);
+  
 
 }
 .post4{
@@ -62,11 +95,12 @@ body{
   margin: auto;
   margin-top: 30px;
   margin-left: 16px;
-  background-color: #DCE1E3;
+  background-color: var(--primary-color);
   text-align:left;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 7px;
   position: revert;
+  color: var(--secondary-color);
 
 }
 
@@ -76,10 +110,11 @@ body{
   border: 0px dashed black;
   margin: auto;
   margin-top: 220px;
-  background-color: #DCE1E3;
+  background-color: var(--primary-color);
   text-align:left;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 5px;
+  color: var(--secondary-color);
 
 }
 .post6{
@@ -88,10 +123,11 @@ body{
   border: 0px dashed black;
   margin: auto;
   margin-top: -358px;
-  background-color: #DCE1E3;
+  background-color: var(--primary-color);
   text-align:left;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 5px;
+  color: var(--secondary-color);
 
 }
 table {
@@ -108,9 +144,10 @@ td{
   text-align: justify;
 }
 h4{
-    color: #004E7C;
+    color: var( --secondary-color);
     text-align: justify;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .meniu{
@@ -205,6 +242,7 @@ a:link {
   background-color: #333;
   text-align: center;
   margin-top: 15px;
+  color: var(--secondary-color);
 }
 
 .fa {
@@ -222,7 +260,7 @@ a:link {
 
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: var( --secondary-color);
 }
 .fa-twitter {
   background: #55ACEE;

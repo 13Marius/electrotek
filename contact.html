@@ -32,6 +32,9 @@
     <li><a href="news.html">News</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
+
+    <img src="poze/moon.png" id="icon">
+
  </ul>
     <div class="post3">
       <div class="post4">
@@ -61,6 +64,18 @@
        
     </div>
     </div>
+
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick =  function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+          icon.src = "poze/moon.png";
+      }else{
+        icon.src = "poze/moon.png";
+      }
+    }
+    </script>
 
     </body>
 </html>
