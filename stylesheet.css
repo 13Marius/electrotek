@@ -49,7 +49,7 @@ nav ul{
 .post1{
     width: 920px;
     height: 250px;
-    border: 1px dashed black;
+    border: 1px dashed var(--secondary-color);
     margin: auto;
     margin-top: 15px;
     background-color: var(--primary-color);
