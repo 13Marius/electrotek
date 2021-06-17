@@ -67,7 +67,7 @@ nav ul{
   margin-top: 15px;
   background-color:var(--primary-color);
   text-align:left;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman','verdana';
   text-indent: 5px;
   color: var(--secondary-color);
   
@@ -146,7 +146,7 @@ td{
 h4{
     color: var( --secondary-color);
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: ' verdana', sans-serif;
     
 }
 
